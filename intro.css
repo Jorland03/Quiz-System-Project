@@ -1,0 +1,59 @@
+/* intro.css */
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-container {
+  max-width: 500px;
+  text-align: center;
+  padding: 30px;
+  background: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0px 0px 20px rgba(255,255,255,0.1);
+}
+
+h1 {
+  color: #00c8ff;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #bbb;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.start-button {
+  background: #222;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 14px 36px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.25s, box-shadow 0.25s;
+  text-decoration: none; /* for anchor */
+  display: inline-block;
+}
+
+/* Hover glow */
+.start-button:hover {
+  background: #333;
+  box-shadow: 0 0 20px rgba(0, 200, 255, 0.8);
+  transform: translateY(-2px);
+}
+
+/* Click bounce */
+.start-button:active {
+  transform: scale(0.95);
+  background: #444;
+}
